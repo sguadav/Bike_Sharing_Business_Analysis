@@ -21,9 +21,9 @@ To stat the program, go to the folder that you want to see on how that external 
 
 For the Temperature vs Bike Shares analysis, you should get the following output
 
-<img src='images/graphs.PNG'>
+<img src="images/graphs.PNG">
 
-<img src='images/Model_stats.PNG'>
+<img src="images/Model_stats.PNG">
 
 Since the program looks for a new model every time, the answers will not be the same everytime.
 
