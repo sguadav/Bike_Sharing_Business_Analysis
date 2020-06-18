@@ -17,7 +17,7 @@ Data information
 """
 # Getting Data
 #bike_day_data = pd.read_csv("bike_sharing_business\day.csv")
-bike_day_data = pd.read_csv("day.csv")
+bike_day_data = pd.read_csv("../day.csv")
 bike_day_data = bike_day_data[['temp', 'cnt']]
 predict = 'cnt'
 
