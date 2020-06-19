@@ -16,8 +16,8 @@ Data information
     Progress in Artificial Intelligence (2013): pp. 1-15, Springer Berlin Heidelberg, doi:10.1007/s13748-013-0040-3.
 """
 # Getting Data
-#bike_day_data = pd.read_csv("bike_sharing_business\day.csv")
-bike_day_data = pd.read_csv("../day.csv")
+bike_day_data = pd.read_csv("bike_sharing_business\day.csv")
+#bike_day_data = pd.read_csv("../day.csv")
 bike_day_data = bike_day_data[['temp', 'cnt']]
 predict = 'cnt'
 
@@ -50,7 +50,7 @@ predict_num_bikes = lin_reg.predict(bike_x_test)
 
 # Showing Model statistics
 # The coefficients
-print("Model Statistics")
+print("\nModel Statistics")
 print('Coefficient: {:.2f}'.format(lin_reg.coef_[0]))
 # The mean squared error
 print('Mean squared error (MSE): {:.2f}'.format(metrics.mean_squared_error(bike_y_test, predict_num_bikes)))
