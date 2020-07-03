@@ -1,4 +1,4 @@
-# Bike_Sharing_Business_Analysis
+# Bike Sharing Business Analysis
 This is an program that analyzes data from a csv file on a Bicycle Sharing Business. For this program I focused on Supervised Machine Learning and statistical analysis of the data gather, dividing it to have training and testing data. Additionally, the program uses a library that saves the most accurate model from a repetition of 100 times. Currently, two analysis are made: 
 1) Analyzes how the outside temperature affects the number of bicycles shared that day (temperature_shares).
 2) Analyzes how the weekday affects the number of bicycles shared (weekday_shares).
